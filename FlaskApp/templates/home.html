@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <section id="header" class="jumbotron text-center">
+        <img src="{{url_for('static', filename='images/Untitled.jpg')}}">
+        <h4 class="tagline">Seeing through your heart</h4>
+        <a href="/test" class="btn btn-warning" >Take a test</a>
+    </section>
+
+    <section class="container-fluid px-0">
+
+        <div class="row align-items-center content">
+            
+            <div class="col-md-6 text-center ">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <p class="lead">
+                            Easy Beats is a simple yet elegant way of gaining better insight into your own body. Our system analyzes ECG reading to monitor for abnormalities while educating the user about their cardiac health.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row justify-content-center">
+                    <h2>What is EasyBeat?</h2>
+                </div>
+            </div>
+        </div> 
+
+        <div class="row align-items-center content">
+            <div class="col-md-6 order-2 order-md-1">
+                <div class="row justify-content-center">
+                    <h2>How EasyBeat works?</h2>
+                </div>
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <p class="lead">
+                            Easy Beat uses smartwatch APIs to gather your ECG data and feeds it to a Machine Learning model. The model processes the data and generates a downloadable report. The report lets you know if there is anything abnormal with your heart. All you have to do is link your smartwatch to the website.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+{% endblock %}
