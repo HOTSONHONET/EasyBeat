@@ -18,7 +18,7 @@ A **webapp** that takes patients ECG readings from their wearable devices and us
 pip install virtualenv
 ~~~
 
-* Create a new folder and clone this repository *(Assuming you have already have **git** installed)*
+* Create a new folder and clone this repository *(Assuming you already have **git** installed)*
 ~~~
 git clone https://github.com/HOTSONHONET/eazyBeat.git
 ~~~
