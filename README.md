@@ -15,7 +15,7 @@ A **webapp** that takes patients ECG readings from their wearable devices and us
 * Install [python 3.7+](https://www.python.org/downloads/release/python-378/)
 * Open a terminal and type in the below command to install **virtualenv** module
 ~~~
-pip install virtual env
+pip install virtualenv
 ~~~
 
 * Create a new folder and clone this repository *(Assuming you have already have **git** installed)*
